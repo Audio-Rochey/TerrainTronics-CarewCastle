@@ -5,16 +5,22 @@ Carew Castle boards are tiny 10mmx10mm boards that are designed to power big LED
 Additionally, it can be used to "clone" the flicker pattern of a small 3mm candle flickering LED to a larger 1 Watt LED (any color) or even to Flexileds.
 <img src="https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/b9ae9c61-ba5b-4f18-a80d-68170daa03aa](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/b9ae9c61-ba5b-4f18-a80d-68170daa03aa.jpg" width="400" >
 <img src="https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/fc0d4db5-b82f-4338-84fd-ca66112e2ea3](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/fc0d4db5-b82f-4338-84fd-ca66112e2ea3.jpg" width="400" >
+![2024-04-09 20_42_06-WIN_20240409_13_45_49_Pro](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/94e54b91-9df9-4f28-8fd2-f2d8947b3be5)
 
 INSERT PICTURE OF BOARD, BOTH SIDES and with an LED attached.
 ![MainImage](https://github.com/Audio-Rochey/blob/master/TerrainTronics-Wiston-Castle/pictures/IMG_1923.jpg)
 Please take a minute to read through the uses - there's usability hints throughout that will inspire creative usage!
 
 ## Uses
-Wiston Castle can be used over the surface of the table, within the base of a piece of scatter terrain piece or the case of a player character etc.
+
 ### Example 1 - Cloning a 3mm Candle LED to a 1Watt LED.
-INSERT PICTURE
-INSERT TEXT
+![2024-04-09 20_38_37-Clipboard](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/153f9ea5-1b00-4d8c-8bfc-234d88b19d45)
+
+Many high power Leds are unable to do clever things like Flickr. MOst folks solve problems like this by using an arduino or a programmable solution. 
+Using the Carew Castle circuit board in this manner clones the High speed candle flickering effect to its output, which drives much larger leds. It's a completely software free solution. 
+Such a solution also allows you to synchronize lights by running them all in parallel from the same output - giving an awesome effect, such as a candle on the table being in sync with a high power LED shining at hte back wall.
+
+![Screenshot 2024-04-09 171053](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/e36c786a-2380-4522-9a8c-378b62a1a413)
 
 ### Example 2 - Cloning a 3mm Candle to all outputs of a Conwy Castle
 INSERT PICTURE
