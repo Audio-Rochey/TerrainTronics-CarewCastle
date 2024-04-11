@@ -3,15 +3,19 @@
 
 Carew Castle boards are tiny 10mmx10mm boards that are designed to power big LED's, other boards (like Conwy Castles) or Vibration Motors with up to 2Amps of current. (way more than a what you find on an output of a Wemos D1 or Arduino!)
 Additionally, it can be used to "clone" the flicker pattern of a small 3mm candle flickering LED to a larger 1 Watt LED (any color) or even to Flexileds.
+
 <img src="https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/b9ae9c61-ba5b-4f18-a80d-68170daa03aa](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/b9ae9c61-ba5b-4f18-a80d-68170daa03aa.jpg" width="400" >
 <img src="https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/fc0d4db5-b82f-4338-84fd-ca66112e2ea3](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/fc0d4db5-b82f-4338-84fd-ca66112e2ea3.jpg" width="400" >
+
 ![2024-04-09 20_42_06-WIN_20240409_13_45_49_Pro](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/94e54b91-9df9-4f28-8fd2-f2d8947b3be5)
 
-INSERT PICTURE OF BOARD, BOTH SIDES and with an LED attached.
-![MainImage](https://github.com/Audio-Rochey/blob/master/TerrainTronics-Wiston-Castle/pictures/IMG_1923.jpg)
 Please take a minute to read through the uses - there's usability hints throughout that will inspire creative usage!
 
+
+
 ## Uses
+
+
 
 ### Example 1 - Cloning a 3mm Candle LED to a 1Watt LED.
 ![2024-04-09 20_38_37-Clipboard](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/153f9ea5-1b00-4d8c-8bfc-234d88b19d45)
@@ -33,6 +37,8 @@ INSERT BLOCK DIAGRAM
 
 
 ## How does it work?
+
+
 
 
 
