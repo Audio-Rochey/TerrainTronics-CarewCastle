@@ -50,7 +50,28 @@ When you hook up a Conwy Castle's + and - power inputs to the LED+ and GND of a 
 The consequence is that you can hook up regular LED's to the Conwy board, still take advantage of the brightness control, but clone the flicker from the Carew Castle board to all 4 outputs of the 
 
 ### Example 3 - Using an Arduino or a Wemos D1 to power a larger load (e.g. 1W LED, Conwy or Vibration Motor) 
-INSERT BLOCK DIAGRAM
+
+
+![Screenshot 2024-04-09 145832](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/91d89824-f91c-4be0-aaba-bac4eb865147)
+
+Carew Castle boards can be used to drive large LED's from processors such as Arduino's and Wemos D1 Mini's. That allows dynamic effects (Flickering, Breathing, Lightening, Electrical Neon Flicker) effects to be created on multiple channels. Code examples will be made available on this github soon. 
+
+> [!IMPORTANT]
+> The Input voltage to the Carew should match the I/O voltage on your processor. For an Arduino Uno, that's 5V. For Wemos D1 Mini, that'd be 3.3V.
+> When configuring the outputs, you should set them to "Open Drain"
+
+Example code to make it run: 
+```
+void setup() {
+  // Sets up D6 as an output.
+  pinMode(D6, OUTPUT_OPEN_DRAIN);
+}
+void loop() {
+  analogWrite(D6, random(120,200));
+  pinMode(D6, OUTPUT_OPEN_DRAIN);  //  <---- This is a really important line to add in Arduino, as analogWrite tends to overwrite the Open Drain setting.
+  delay(100);
+}
+```
 
 <BR><BR><BR>
 
