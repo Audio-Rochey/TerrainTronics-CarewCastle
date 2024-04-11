@@ -42,12 +42,12 @@ Using the Carew Castle circuit board in this manner clones the High speed candle
 Such a solution also allows you to synchronize lights by running them all in parallel from the same output - giving an awesome effect, such as a candle on the table being in sync with a high power LED shining at hte back wall.
 
 ![Screenshot 2024-04-09 171053](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/e36c786a-2380-4522-9a8c-378b62a1a413)
-
+<BR><BR><BR>
 ### Example 2 - Cloning a 3mm Candle to all outputs of a Conwy Castle
-INSERT PICTURE
-2 methods here: 
-- One as a straight power switch
-- Cloning the Candle to all 4 outputs. (flicker will be synchronous)
+![Screenshot 2024-04-09 142914](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/8449eef2-6ea7-4e2b-91c1-7afca206df91)
+
+When you hook up a Conwy Castle's + and - power inputs to the LED+ and GND of a Carew Castle, and put a flickering LED on the Carew Castle, you're essentially making the Carew in a power switch that switches the power to the Conwy board rapidly.
+The consequence is that you can hook up regular LED's to the Conwy board, still take advantage of the brightness control, but clone the flicker from the Carew Castle board to all 4 outputs of the 
 
 ### Example 3 - Using an Arduino or a Wemos D1 to power a larger load (e.g. 1W LED, Conwy or Vibration Motor) 
 INSERT BLOCK DIAGRAM
