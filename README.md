@@ -61,7 +61,7 @@ Carew Castle boards can be used to drive large LED's from processors such as Ard
 > When configuring the outputs, you should set them to "Open Drain"
 
 Example code to make it run: 
-```
+```cpp
 void setup() {
   // Sets up D6 as an output.
   pinMode(D6, OUTPUT_OPEN_DRAIN);
@@ -78,7 +78,7 @@ void loop() {
 ## Hooking up LED's or motors?
 
 
-### Large LED's (such as the STar 1W LED's or Flexileds)
+### Large LED's (such as the Star 1W LED's or Flexileds)
 
 [Amazon Search Link for 1W LED's](https://www.amazon.com/s?k=1W+LED)
 
