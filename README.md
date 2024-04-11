@@ -1,4 +1,13 @@
 # Carew Castle LED Cloner
+## Table of contents
+
+- [Carew Castle LED Cloner](#carew-castle-led-cloner)
+  - [Introduction](#introduction)
+  - [Maximum limits etc](#maximum-limits-etc)
+  - [Example Use Cases](#example-use-cases)
+  - [Hooking up LED's or motors?](#hooking-up-leds-or-motors)
+  - [How does it work?](#how-does-it-work)
+
 ## Introduction
 
 Carew Castle boards are tiny 10mmx10mm boards that are designed to power big LED's, other boards (like Conwy Castles) or Vibration Motors with up to 2Amps of current. (way more than a what you find on an output of a Wemos D1 or Arduino!)
@@ -99,7 +108,6 @@ Adding a solder bridge on each of these triangular pads will each add an additio
 
 If higher power capability is needed (and therefor a lower resistance), an external power resistor should be used. Many of the 1 Watt LED's come with this resistor onboard (and well heatsinked). 
 
-
 > [!TIP]
 > The LED and inline resistor should be connected between LED+ and GND.
 
@@ -120,6 +128,25 @@ If higher power capability is needed (and therefor a lower resistance), an exter
 
 </td></tr> </table>
 
+<BR><BR><BR>
+
+### Driving Motors
+---
+
+
+![Screenshot 2024-04-11 171555](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/4a12fa07-11b4-4583-abf0-151ffa8b1775)
+
+Motors are quite simple beasts. So far, I've mainly dabbled with vibration motors. When driving motors, solenoids and relays, a flyback diode (1N4148) should be added between the LED+ and 5V signals to protect the MOSFET transistor **Q2** from being destroyed by the motor when power is switched off.
+
+![Screenshot 2024-04-11 172422](https://github.com/Audio-Rochey/TerrainTronics-CarewCastle/assets/15720888/758235f2-6b49-4d4a-9dd6-06992084fced)
+
+The diode should be inserted with the Cathode connected to 5V and Anode connected to LED+.
+
+
+
+
+
+---
 
 ## How does it work?
 
